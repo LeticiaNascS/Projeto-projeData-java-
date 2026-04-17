@@ -1,23 +1,28 @@
 import java.time.LocalDate;
 
-public class Pessoa{
-    private string nome;
-    private LocalDate dataNascimento; //Protegendo dados com o private
+public class Pessoa {
 
-    public Pessoa (string nome, LocalDate dataNascimento){ //Construtor
+    private String nome;
+    private LocalDate dataNascimento;
+
+    public Pessoa(String nome, LocalDate dataNascimento) {
         this.nome = nome;
         this.dataNascimento = dataNascimento;
     }
-    public String getNome(){
+
+    public String getNome() {
         return nome;
     }
-    public LocalDate getDataNascimento(){
-        return dataNasicmento;
+
+    public LocalDate getDataNascimento() {
+        return dataNascimento;
     }
-    public void setNome(String nome){
+
+    public void setNome(String nome) {
         this.nome = nome;
     }
-    public void setDataNascimento(LocalDate dataNascimento){
-        this.dataNascimento;
+
+    public void setDataNascimento(LocalDate dataNascimento) {
+        this.dataNascimento = dataNascimento;
     }
 }
